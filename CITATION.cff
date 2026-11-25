@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "stl-deviation: quantifying the geometric deviation between two STL surfaces"
+abstract: "Python tool that compares two triangulated surfaces (STL) with exact signed point-to-surface distances, standard segmentation metrics (ASSD, RMS, Hausdorff, HD95, tolerance fractions, volume, Dice) and colour-mapped exports for ParaView, MeshLab and 3D Slicer."
+authors:
+  - family-names: "Mayeur"
+    given-names: "Olivier"
+    affiliation: "Centrale Lille, LaMcube"
+    # TODO: add your ORCID once available
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 0.1.0
+date-released: "2026-11-25"   # TODO: update at each release
+license: MIT
+# TODO: replace YOUR-ACCOUNT with your GitHub user or organisation name
+repository-code: "https://github.com/YOUR-ACCOUNT/stl-deviation"
+# TODO: after the first Zenodo release, add the DOI:
+# doi: "10.5281/zenodo.XXXXXXX"
+keywords:
+  - STL
+  - segmentation
+  - surface distance
+  - Hausdorff distance
+  - biomechanics
+  - medical imaging
